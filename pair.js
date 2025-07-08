@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *Do not share this code to anyone* 🛑\n\n📌 *BOT Update News Channel*\n🖇️ https://whatsapp.com/channel/0029VbAW8ciElagwqcFycO3i\n\n📌 *BOT Support Group 01*\n🖇️ https://chat.whatsapp.com/Fk8amZSXzoT9cg4aF3hsiF\n\nᴾᵒʷᵉʳᵉᵈ ᴮʸ 𝐃𝐀𝐑𝐊 𝐂𝐘𝐁𝐄𝐑 〽️𝐃`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
+                url: "https://raw.githubusercontent.com/darkcybermd2009/Bot-Media/refs/heads/main/Normal%20Pic.jpg",
               },
               caption: sid,
             });
